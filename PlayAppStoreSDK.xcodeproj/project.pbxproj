@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49D2A4671E5C7D5D003DF438 /* PlayAppStoreSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2A4661E5C7D5D003DF438 /* PlayAppStoreSDK.m */; };
+		49D2A4681E5C7D5D003DF438 /* PlayAppStoreSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49D2A4651E5C7D5D003DF438 /* PlayAppStoreSDK.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49D2A4601E5C7D5D003DF438 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				49D2A4681E5C7D5D003DF438 /* PlayAppStoreSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49D2A4621E5C7D5D003DF438 /* libPlayAppStoreSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlayAppStoreSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D2A4651E5C7D5D003DF438 /* PlayAppStoreSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayAppStoreSDK.h; sourceTree = "<group>"; };
+		49D2A4661E5C7D5D003DF438 /* PlayAppStoreSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayAppStoreSDK.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D2A45F1E5C7D5D003DF438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D2A4591E5C7D5D003DF438 = {
+			isa = PBXGroup;
+			children = (
+				49D2A4641E5C7D5D003DF438 /* PlayAppStoreSDK */,
+				49D2A4631E5C7D5D003DF438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D2A4631E5C7D5D003DF438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D2A4621E5C7D5D003DF438 /* libPlayAppStoreSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D2A4641E5C7D5D003DF438 /* PlayAppStoreSDK */ = {
+			isa = PBXGroup;
+			children = (
+				49D2A4651E5C7D5D003DF438 /* PlayAppStoreSDK.h */,
+				49D2A4661E5C7D5D003DF438 /* PlayAppStoreSDK.m */,
+			);
+			path = PlayAppStoreSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D2A4611E5C7D5D003DF438 /* PlayAppStoreSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D2A46B1E5C7D5D003DF438 /* Build configuration list for PBXNativeTarget "PlayAppStoreSDK" */;
+			buildPhases = (
+				49D2A45E1E5C7D5D003DF438 /* Sources */,
+				49D2A45F1E5C7D5D003DF438 /* Frameworks */,
+				49D2A4601E5C7D5D003DF438 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayAppStoreSDK;
+			productName = PlayAppStoreSDK;
+			productReference = 49D2A4621E5C7D5D003DF438 /* libPlayAppStoreSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D2A45A1E5C7D5D003DF438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					49D2A4611E5C7D5D003DF438 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49D2A45D1E5C7D5D003DF438 /* Build configuration list for PBXProject "PlayAppStoreSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49D2A4591E5C7D5D003DF438;
+			productRefGroup = 49D2A4631E5C7D5D003DF438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D2A4611E5C7D5D003DF438 /* PlayAppStoreSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D2A45E1E5C7D5D003DF438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D2A4671E5C7D5D003DF438 /* PlayAppStoreSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49D2A4691E5C7D5D003DF438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49D2A46A1E5C7D5D003DF438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D2A46C1E5C7D5D003DF438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49D2A46D1E5C7D5D003DF438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D2A45D1E5C7D5D003DF438 /* Build configuration list for PBXProject "PlayAppStoreSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D2A4691E5C7D5D003DF438 /* Debug */,
+				49D2A46A1E5C7D5D003DF438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D2A46B1E5C7D5D003DF438 /* Build configuration list for PBXNativeTarget "PlayAppStoreSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D2A46C1E5C7D5D003DF438 /* Debug */,
+				49D2A46D1E5C7D5D003DF438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D2A45A1E5C7D5D003DF438 /* Project object */;
+}
