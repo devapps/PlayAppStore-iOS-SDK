@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		49D2A4671E5C7D5D003DF438 /* PlayAppStoreSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2A4661E5C7D5D003DF438 /* PlayAppStoreSDK.m */; };
 		49D2A4681E5C7D5D003DF438 /* PlayAppStoreSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49D2A4651E5C7D5D003DF438 /* PlayAppStoreSDK.h */; };
+		49D2A4A31E645B64003DF438 /* PASApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2A49D1E645B64003DF438 /* PASApplication.m */; };
+		49D2A4A61E645B6E003DF438 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2A4A51E645B6E003DF438 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,13 @@
 		49D2A4621E5C7D5D003DF438 /* libPlayAppStoreSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlayAppStoreSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D2A4651E5C7D5D003DF438 /* PlayAppStoreSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayAppStoreSDK.h; sourceTree = "<group>"; };
 		49D2A4661E5C7D5D003DF438 /* PlayAppStoreSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayAppStoreSDK.m; sourceTree = "<group>"; };
+		49D2A49C1E645B64003DF438 /* PASApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASApplication.h; sourceTree = "<group>"; };
+		49D2A49D1E645B64003DF438 /* PASApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASApplication.m; sourceTree = "<group>"; };
+		49D2A49F1E645B64003DF438 /* LSApplicationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSApplicationProxy.h; sourceTree = "<group>"; };
+		49D2A4A01E645B64003DF438 /* LSApplicationWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSApplicationWorkspace.h; sourceTree = "<group>"; };
+		49D2A4A11E645B64003DF438 /* LSBundleProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSBundleProxy.h; sourceTree = "<group>"; };
+		49D2A4A21E645B64003DF438 /* LSResourceProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSResourceProxy.h; sourceTree = "<group>"; };
+		49D2A4A51E645B6E003DF438 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D2A4A61E645B6E003DF438 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +56,7 @@
 			children = (
 				49D2A4641E5C7D5D003DF438 /* PlayAppStoreSDK */,
 				49D2A4631E5C7D5D003DF438 /* Products */,
+				49D2A4A41E645B6E003DF438 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +71,40 @@
 		49D2A4641E5C7D5D003DF438 /* PlayAppStoreSDK */ = {
 			isa = PBXGroup;
 			children = (
+				49D2A49B1E645AE9003DF438 /* Application */,
 				49D2A4651E5C7D5D003DF438 /* PlayAppStoreSDK.h */,
 				49D2A4661E5C7D5D003DF438 /* PlayAppStoreSDK.m */,
 			);
 			path = PlayAppStoreSDK;
+			sourceTree = "<group>";
+		};
+		49D2A49B1E645AE9003DF438 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				49D2A49C1E645B64003DF438 /* PASApplication.h */,
+				49D2A49D1E645B64003DF438 /* PASApplication.m */,
+				49D2A49E1E645B64003DF438 /* Private Headers */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		49D2A49E1E645B64003DF438 /* Private Headers */ = {
+			isa = PBXGroup;
+			children = (
+				49D2A49F1E645B64003DF438 /* LSApplicationProxy.h */,
+				49D2A4A01E645B64003DF438 /* LSApplicationWorkspace.h */,
+				49D2A4A11E645B64003DF438 /* LSBundleProxy.h */,
+				49D2A4A21E645B64003DF438 /* LSResourceProxy.h */,
+			);
+			path = "Private Headers";
+			sourceTree = "<group>";
+		};
+		49D2A4A41E645B6E003DF438 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49D2A4A51E645B6E003DF438 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D2A4671E5C7D5D003DF438 /* PlayAppStoreSDK.m in Sources */,
+				49D2A4A31E645B64003DF438 /* PASApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -210,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -254,6 +296,7 @@
 				49D2A46D1E5C7D5D003DF438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
