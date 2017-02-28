@@ -95,7 +95,11 @@ typedef void (^PASInstallationCompletion)(BOOL, NSError *);
         }
         
         self.installationCompletion = ^(BOOL success, NSError *error){
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wgnu"
             [self description];
+#pragma clang diagnostic pop
+
             completion(success, error);
         };
         

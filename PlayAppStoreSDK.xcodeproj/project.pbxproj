@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49C89B8A1E6510C2006D7F86 /* PASSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C89B891E6510C2006D7F86 /* PASSessionManager.m */; };
+		49C89B8E1E6520E9006D7F86 /* PASDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C89B8D1E6520E9006D7F86 /* PASDataProvider.m */; };
+		49C89B911E652136006D7F86 /* PASConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C89B901E652136006D7F86 /* PASConfiguration.m */; };
 		49D2A4671E5C7D5D003DF438 /* PlayAppStoreSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2A4661E5C7D5D003DF438 /* PlayAppStoreSDK.m */; };
 		49D2A4681E5C7D5D003DF438 /* PlayAppStoreSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49D2A4651E5C7D5D003DF438 /* PlayAppStoreSDK.h */; };
 		49D2A4A31E645B64003DF438 /* PASApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2A49D1E645B64003DF438 /* PASApplication.m */; };
 		49D2A4A61E645B6E003DF438 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2A4A51E645B6E003DF438 /* MobileCoreServices.framework */; };
+		B3B241A2B07D385B884E0F3F /* libPods-PlayAppStoreSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8879399DF32F9600D42DA59 /* libPods-PlayAppStoreSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +31,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1830F247F0A4A5E8863589B5 /* Pods-PlayAppStoreSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAppStoreSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAppStoreSDK/Pods-PlayAppStoreSDK.release.xcconfig"; sourceTree = "<group>"; };
+		1B410CB59FB07861917E7CAB /* Pods-PlayAppStoreSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAppStoreSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayAppStoreSDK/Pods-PlayAppStoreSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		49C89B881E6510C2006D7F86 /* PASSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASSessionManager.h; sourceTree = "<group>"; };
+		49C89B891E6510C2006D7F86 /* PASSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASSessionManager.m; sourceTree = "<group>"; };
+		49C89B8C1E6520E9006D7F86 /* PASDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASDataProvider.h; sourceTree = "<group>"; };
+		49C89B8D1E6520E9006D7F86 /* PASDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASDataProvider.m; sourceTree = "<group>"; };
+		49C89B8F1E652136006D7F86 /* PASConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASConfiguration.h; sourceTree = "<group>"; };
+		49C89B901E652136006D7F86 /* PASConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASConfiguration.m; sourceTree = "<group>"; };
 		49D2A4621E5C7D5D003DF438 /* libPlayAppStoreSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlayAppStoreSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D2A4651E5C7D5D003DF438 /* PlayAppStoreSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayAppStoreSDK.h; sourceTree = "<group>"; };
 		49D2A4661E5C7D5D003DF438 /* PlayAppStoreSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayAppStoreSDK.m; sourceTree = "<group>"; };
@@ -37,6 +49,7 @@
 		49D2A4A11E645B64003DF438 /* LSBundleProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSBundleProxy.h; sourceTree = "<group>"; };
 		49D2A4A21E645B64003DF438 /* LSResourceProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSResourceProxy.h; sourceTree = "<group>"; };
 		49D2A4A51E645B6E003DF438 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E8879399DF32F9600D42DA59 /* libPods-PlayAppStoreSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayAppStoreSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,18 +58,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D2A4A61E645B6E003DF438 /* MobileCoreServices.framework in Frameworks */,
+				B3B241A2B07D385B884E0F3F /* libPods-PlayAppStoreSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49C89B871E650EC6006D7F86 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				49C89B881E6510C2006D7F86 /* PASSessionManager.h */,
+				49C89B891E6510C2006D7F86 /* PASSessionManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		49C89B8B1E652072006D7F86 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				49C89B8C1E6520E9006D7F86 /* PASDataProvider.h */,
+				49C89B8D1E6520E9006D7F86 /* PASDataProvider.m */,
+				49C89B8F1E652136006D7F86 /* PASConfiguration.h */,
+				49C89B901E652136006D7F86 /* PASConfiguration.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		49D2A4591E5C7D5D003DF438 = {
 			isa = PBXGroup;
 			children = (
 				49D2A4641E5C7D5D003DF438 /* PlayAppStoreSDK */,
 				49D2A4631E5C7D5D003DF438 /* Products */,
 				49D2A4A41E645B6E003DF438 /* Frameworks */,
+				73BF2CAF68E868064DE74485 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +106,8 @@
 		49D2A4641E5C7D5D003DF438 /* PlayAppStoreSDK */ = {
 			isa = PBXGroup;
 			children = (
+				49C89B8B1E652072006D7F86 /* Service */,
+				49C89B871E650EC6006D7F86 /* Network */,
 				49D2A49B1E645AE9003DF438 /* Application */,
 				49D2A4651E5C7D5D003DF438 /* PlayAppStoreSDK.h */,
 				49D2A4661E5C7D5D003DF438 /* PlayAppStoreSDK.m */,
@@ -103,8 +140,18 @@
 			isa = PBXGroup;
 			children = (
 				49D2A4A51E645B6E003DF438 /* MobileCoreServices.framework */,
+				E8879399DF32F9600D42DA59 /* libPods-PlayAppStoreSDK.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73BF2CAF68E868064DE74485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B410CB59FB07861917E7CAB /* Pods-PlayAppStoreSDK.debug.xcconfig */,
+				1830F247F0A4A5E8863589B5 /* Pods-PlayAppStoreSDK.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49D2A46B1E5C7D5D003DF438 /* Build configuration list for PBXNativeTarget "PlayAppStoreSDK" */;
 			buildPhases = (
+				DC527767545E93254EB8A18D /* [CP] Check Pods Manifest.lock */,
 				49D2A45E1E5C7D5D003DF438 /* Sources */,
 				49D2A45F1E5C7D5D003DF438 /* Frameworks */,
 				49D2A4601E5C7D5D003DF438 /* CopyFiles */,
+				082CDD6BE112AFC18F16FA0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,13 +207,49 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		082CDD6BE112AFC18F16FA0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayAppStoreSDK/Pods-PlayAppStoreSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC527767545E93254EB8A18D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49D2A45E1E5C7D5D003DF438 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C89B8A1E6510C2006D7F86 /* PASSessionManager.m in Sources */,
+				49C89B8E1E6520E9006D7F86 /* PASDataProvider.m in Sources */,
 				49D2A4671E5C7D5D003DF438 /* PlayAppStoreSDK.m in Sources */,
 				49D2A4A31E645B64003DF438 /* PASApplication.m in Sources */,
+				49C89B911E652136006D7F86 /* PASConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +346,7 @@
 		};
 		49D2A46C1E5C7D5D003DF438 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B410CB59FB07861917E7CAB /* Pods-PlayAppStoreSDK.debug.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,6 +356,7 @@
 		};
 		49D2A46D1E5C7D5D003DF438 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1830F247F0A4A5E8863589B5 /* Pods-PlayAppStoreSDK.release.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
