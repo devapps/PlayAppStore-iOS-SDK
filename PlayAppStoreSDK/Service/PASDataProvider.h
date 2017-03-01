@@ -15,7 +15,13 @@
 - (instancetype)initWithConfiguration:(PASConfiguration *)configuration;
 
 
-- (void)getAllAppsWithCompletion:(void (^)(id responseObject))success;
+- (void)getAllAppsWithParameters:(nullable NSDictionary *)parameters completion:(nullable void (^)(id _Nullable responseObject, NSError  * _Nullable error))completion;
+
+- (void)getAllBuildsWithParameters:(nullable NSDictionary *)parameters bundleID:(NSString *)bundleID completion:(nullable void (^)(id _Nullable responseObject, NSError  * _Nullable error))success;
+
+- (void)getBuildDetailWithBundleID:(NSString *)bundleID buildID:(NSString *)buildID completion:(nullable void (^)(id _Nullable responseObject, NSError  * _Nullable error))success;
+
+
 
 
 @end

@@ -22,8 +22,9 @@
 /// Install the application
 /// This is only applicable for applications created with a manifest URL
 ///
-/// - parameter completion:  Block to be executed when the installation finishes (either fails or succeeds)
 /// - parameter progress: progress for the installation
+///
+/// - parameter completion:  Block to be executed when the installation finishes (either fails or succeeds)
 ///
 - (void)installWithProgress:(NSProgress * __autoreleasing *)progress completion:(void (^)(BOOL finished, NSError *error))completion;
 

@@ -178,6 +178,7 @@ typedef void (^PASInstallationCompletion)(BOOL, NSError *);
         if ([object isKindOfClass:[NSProgress class]]) {
             NSProgress *other = (NSProgress *)object;
             NSProgress *progress = self.installationProgress;
+            progress.totalUnitCount = other.totalUnitCount;
             progress.completedUnitCount = other.completedUnitCount;
             
             if (self.installationCheckingTimer) {
