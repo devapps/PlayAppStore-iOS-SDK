@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = 'PlayAppStore Server SDK for iOS'
   s.homepage     = 'https://github.com/playappstore/'
   s.author       = "PlayAppStore"
-  s.source       = {:git => 'https://github.com/playappstore/PlayAppStore-iOS-SDK.git', :tag => "v#{s.version}"}
+  s.source       = {:git => 'https://github.com/playappstore/PlayAppStore-iOS-SDK.git', :tag => "#{s.version}"}
 
   s.ios.deployment_target = '7.0'
 
