@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'PlayAppStoreSDK'
-  s.version      = '0.0.1'
+  s.version      = '1.0.beta'
   s.summary      = 'PlayAppStore Server SDK for iOS'
   s.homepage     = 'https://github.com/playappstore/'
   s.author       = "PlayAppStore"
